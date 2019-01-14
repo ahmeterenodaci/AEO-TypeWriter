@@ -1,0 +1,9 @@
+.tw-cursor {
+  border-right: 2px solid #fff;
+  display: initial;
+  animation: blinkCursor 500ms steps(11) infinite normal;
+}
+@keyframes blinkCursor{
+from{border-right-color: #fff;}
+to{border-right-color: #000;}
+}

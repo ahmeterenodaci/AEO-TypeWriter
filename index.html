@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ahmet Eren Odacı</title>
+    <link rel="shortcut icon" href="https://personboxes.com/img/logo.ico">
+    <link rel="stylesheet" href="css/aeo-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/aeo-typewriter.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+</head>
+<body>
+
+<div class="div-outside">
+    <div class="div-inside">
+
+        <div id="example1"></div>
+        <div><p id="example2"></p></div>
+        <div><span id="example3"></span></div>
+        
+        <div><p id="example4"></p></div>
+        <div><p id="example5"></p></div>
+        <div><p id="example6"></p></div>
+
+        <div><p id="example7"></p></div>
+        <div><p id="example8"></p></div>
+        <div><p id="example9"></p></div>
+
+    </div>
+</div>
+<div class="footer">
+    <a href="https://github.com/ahmeterenodaci/AEO-TypeWriter" style="color:#fff;text-decoration:none;">How to Use?</a>
+</div>
+
+<style>
+body {
+    background-color:#333;color:#fff;font-family: 'Quicksand', sans-serif;padding:0;margin:0;font-size:25px;
+}
+p {
+    margin:0;
+}
+.div-outside {
+    display: -ms-flexbox !important;display: flex !important;height: 100vh;
+}
+.div-inside {
+    width:90vh;margin:auto;text-align: center;
+}
+.footer {
+    position: absolute;bottom: 0;text-align: center;width: 100%;padding: 1rem 0;font-size:16px;
+}
+</style>
+
+    
+<script>
+    $(document).ready(function(){
+        $("#example1").typewriter({
+            text: "Example text in div tag. I'll disappear immediately...",
+            waitingTime: 1000,
+            delay: 100,
+            hide: 1,
+            cursor: true,
+        });
+        $("#example2").typewriter({
+            text: "Example text in paragraph tag. I'll disappear in 1 seconds...",
+            waitingTime: 1000,
+            delay: 100,
+            cursor: true,
+            hide: 1000
+        });
+        $("#example5").typewriter({
+            text: "Where is my cursor?  I don't have one.",
+            delay: 80,
+            waitingTime: 7700,
+            hide: 700
+        });
+
+        $("#example3").typewriter({
+            text: "I'm very slow.",
+            delay: 500,
+            waitingTime: 12300,
+            cursor: true,
+            hide: 1000
+        });
+        $("#example4").typewriter({
+            text: "I'm very fast.",
+            delay: 100,
+            waitingTime: 16300,
+            cursor: true,
+            hide: 3000
+        });
+        
+
+        $("#example6").typewriter({
+            text: "I'm not gonna dissappear...... You know what, I change my mind. Bye!.",
+            waitingTime: 22000,
+            delay: 75,
+            cursor: true,
+            hide: 1000
+        });
+        $("#example7").typewriter({
+            text: "I still couldn't find my cursor.",
+            waitingTime: 29000,
+            delay: 75,
+            hide: 1000
+        });
+        $("#example8").typewriter({
+            text: "I'll be here forever. Just for you <3",
+            waitingTime: 34000,
+            cursor: true,
+        });
+        $("#example9").typewriter({
+            text: "Here it is. Finally I found my cursor EHEHEHE.",
+            cursor: true,
+            delay: 125,
+            waitingTime: 42000,
+            type: 0,
+            hide: 1000
+        });
+
+    });
+</script>
+</body>
+</html>
