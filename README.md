@@ -1,7 +1,7 @@
 # AEO-TypeWriter
 AEO Typewriter is a jQuery plugin for "typewriter" effect.
 <br>
-<a href="https://personboxes.com/">Demo</a>
+<a href="https://ahmeterenodaci.github.io/AEO-TypeWriter/">Demo</a>
 </br>
 ## Usage
 
